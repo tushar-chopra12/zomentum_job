@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="6"
+    android:background="#2C2828"
+    android:id="@+id/llrecycler">
+
+    <ImageView
+
+        android:id="@+id/img_dp"
+        android:layout_width="41dp"
+        android:layout_height="85dp"
+        android:layout_weight="0.5"
+        android:src="@drawable/circle"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:id="@+id/rltext"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_weight="4.5"
+        android:padding="5dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+
+            android:id="@+id/txtname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/naina"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_my_name_is_naina"
+            android:textSize="15sp"
+            android:layout_below="@+id/txtname"
+            android:layout_marginTop="2dp"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtdesc"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="40dp"
+        android:inputType="time"
+        android:textColor="#FFFFFF"
+        android:background="@null"
+        android:text="@string/_4_35_pm"
+        android:id="@+id/txttime"/>
+
+
+
+
+</LinearLayout>

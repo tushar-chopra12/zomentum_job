@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chatWindow"
+    android:background="#5B5656">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naina"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtChatName"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/onlineagain"
+        android:layout_marginTop="38dp"
+        android:layout_marginLeft="275dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:src="@drawable/txttwo"
+        android:layout_below="@+id/txtChatName"
+        android:layout_marginTop="50dp"
+        android:id="@+id/imgtxtone"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtChatName"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="310dp"
+        android:text="@string/nope"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txtnope"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtnope"
+        android:layout_marginTop="88dp"
+        android:text="@string/tuesday_4_30_pm"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:id="@+id/txtdate"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgtxtone"
+        android:text="@string/seen"
+        android:layout_marginLeft="340dp"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="189dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdate"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="26dp"
+        android:src="@drawable/txtthree"
+        android:id="@+id/imgtxttwo"/>
+
+    <TextView
+        android:id="@+id/txttwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtdate"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="41dp"
+        android:text="@string/what_are_you_doing"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgtxttwo"
+        android:text="@string/seen"
+        android:layout_marginLeft="340dp"
+        android:textSize="19sp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgtxttwo"
+        android:src="@drawable/txtfour"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/imgtxtthree"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgtxttwo"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="50dp"
+        android:text="Partyyy!!What about you"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/typenow"
+        android:id="@+id/imgtype"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/type_something"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="23sp"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/enteragain"
+        android:layout_marginLeft="320dp"
+        android:layout_marginBottom="20dp"/>
+
+
+
+</RelativeLayout>

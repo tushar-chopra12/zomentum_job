@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2C2828">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/zomentum"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        />
+
+    <ImageView
+
+        android:id="@+id/img_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/search"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/etsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="38dp"
+        android:background="@android:color/transparent"
+        android:hint="@string/search_friends"
+        android:textColorHint="#C3FFFFFF"
+        android:textSize="20sp"/>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:id="@+id/recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below = "@id/img_search"
+        android:layout_marginTop="40dp"
+        android:padding="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp"/>
+
+
+
+</RelativeLayout>
